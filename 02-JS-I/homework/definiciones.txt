@@ -1,0 +1,35 @@
+* Variables
+        son elementos que pueden contener cualquier valor, incluso nulo.
+
+
+
+ * Strings
+
+       son un grupo de caracteres alfanumericos
+
+
+ * Funciones (argumentos, `return`)
+       las funciones son un grupo de codigo que nos realiza una tarea especifica y que puede ser 
+       reutilizada en otras parte del programa
+
+       las funciones pueden o no, tener argumentos, los cuales son datos que pasamos para que la 
+       funcion los utilice de acuerdo a la logica que programamos
+
+       las funciones pueden devolver algun valor que queramos mediante la palabra clave "return". 
+       "return" tambien nos sirve para terminar la ejecucion de una funcion en cierto punto. 
+
+ * Declaraciones `if`
+
+        el uso de "IF", nos ayuda a evaluar condiciones y si la evaluacion de estas condiciones resulta
+        verdadera se ejecuta el codigo siguiente de esta condicion, opcionalmente podemos utilizar "ELSE" 
+        para ejecutar un codigo en caso de que la evaluacion del "IF" sea falsa, si es necesario para 
+        resolver el problema planteado.         
+
+ * Valores booleanos (`true`, `false`)
+          los valores boleanos son dos, "Cierto y Falso", y son el resultado de evaluaciones, por ejemplo:
+          si nos preguntamos si un numero es mayor que otro, el resultado solo puede tener una de estas 
+          dos opciones "Cierto o Falso", se pueden utilizar para ejecutar codigo en ciclos o bucles 
+          y/o para terminar estos, o evaluar si se cumplen ciertas condiciones en nuestro codigo.
+          
+
+
