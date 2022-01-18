@@ -17,7 +17,7 @@ function mayoriaDeEdad(edad) {
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
 
-if (edad >= 18 ){return "Allowed";}
+if (edad >== 18 ){return "Allowed";}
   else {return "Not Allowed";}
 
 }
