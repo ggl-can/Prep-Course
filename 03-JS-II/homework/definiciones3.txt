@@ -1,0 +1,21 @@
+for
+
+el bucle "for" nos sirve para ejecutar codigo contenido en este, la cantidad de veces mientras que 
+la condicion acordada en la definicion del "FOR" sea verdadera.
+
+
+&&, ||, !
+
+estos son los operadores logicos el "&&" representa la "Y" en una evaluacion de comparacion, donde el 
+resultado solo sera verdadero si ambos terminos evaluados son verdaderos, si alguno es falso, el resultado
+siempre sera falso. 
+el "||" representa el "OR" en una evaluacion de comparacion, donde el resultado siempre sera verdadero si alguno 
+de los terminos es verdadero, si ambos son falsos el resultado sera falso.
+
+y el operador de negacion "!" representaria al "NOT", antepuesto al operador logico o a la condicion a evaluar 
+cambiaria al valor contrario de esta, por ejemplo: cuando queremos evaluar dos numeros si son iguales usariamos 
+el operador logico "==" o "===", de esta forma "3 == 3" dando como resultado cierto, pero si queremos saber si son
+diferentes estos numeros pondriamos el operador "!" de la siguiente forma "3 !== 3" lo cual nos dara falso, ya que 
+3 es igual a 3. asi mismo funcionaria para cambiar el valor de un resultado booleano, por ejemplo: 
+si evaluamos la siguiente condicion ("A" === "A") el resultado seria "Verdadero" pero si anteponemos el operador de 
+negacion cambiarimos el resultado !("A" === "A"), esto nos daria como resulado "FALSO".
