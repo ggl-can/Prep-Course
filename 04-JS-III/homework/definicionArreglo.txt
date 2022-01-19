@@ -1,0 +1,32 @@
+Arreglo
+
+es una tipo de dato que incluye una lista de elemetos de un mismo tipo o tipos diferentes a los  cuales
+se pueden acceder mediante su indice en el array, iniciando con el indice cero.
+
+por ejemplo:
+var tablaDelDos = [2, 4, 6, 8, 10, 12, 14 ,16 ,18 ,20];
+
+para acceder al elemento que tiene el valor "20", lo hariamos asi:
+
+tablaDelDos[9];
+
+resultado : 20
+
+los metodos para anexar y borrar elementos de un array son 4 y depende del lugar donde queramos iniciar a borrar 
+o a anexarlos.
+
+si queremos anexar desde el primer elemento de la lista usaremos unshift y para borrar desde el inicio de la 
+lista usaremos shift.
+
+tablaDelDos.unshift(0); /// anexa el cero en el inicio del arreglo
+tablaDelDos.shift();  /// regresa el contenido del primer elemento y lo borra del arreglo.
+
+
+para anexar elementos desde el final del arreglo se utilizaria push y para eliminar desde el final de la lista 
+usaremos pop.
+
+tablaDelDos.push(22); /// anexa el numero 22 al final del arreglo
+tablaDelDos.pop();   /// retorna y elimina el ultimo elemento del arreglo.
+
+
+
