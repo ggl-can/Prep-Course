@@ -244,7 +244,7 @@ function continueStatement(numero) {
   var inter=false;
   for (var i=0; i< 10; i++){ 
       
-       if (i === 5) {N.push(numero); continue; } 
+       if (i === 5) { continue; } 
        N.push(numero +=2);
       } 
       return N; 
