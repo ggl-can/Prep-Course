@@ -1,5 +1,60 @@
-Objetos
+Objetos   
+son colecciones de propiedades y metodos relacionados entre si.
+las propiedades tienen el formato de key value, es decir cada clave tiene un valor
+el objeto puede tener sus propios metodos de acuerdo al proposito para el que es diseÃ±ado.
+
+
+
 Propiedades
-Métodos
-Bucle for…in
-Notación de puntos vs notación de corchetes
+las propiedades son conjunto de claves-valor  que describen al objeto. 
+
+
+
+Metodos
+son las funciones que permiten al objeto realizar algun proceso o accion.
+
+
+Bucle for in
+este bucle ayuda a acceder a las propiedades del objeto, mediante este bucle podemos recorrer cada 
+clave del objeto y tambien obtener su contenido, sin saber cuantas o cuales son sus propiedades o metodos.  
+
+Notacion de puntos vs notacion de corchetes
+se pueden utilizar las dos formas indistintamente, en el caso de la notacion de puntos, es mas practica y facil de 
+usar, ya que, desde que iniciamos el aprendizaje de JS se utiliza, por ejemplo:  console.log(), el objeto 
+"console" tiene un metodo llamado "log". 
+
+mediante la notacion de corchetes podemos acceder a las propiedades o metodos referenciandolos con la siguiente 
+sintaxis
+
+si tuvieramos el siguiente objeto 
+
+libro = {
+
+titulo : "Js code",
+autor  : "Marco Juarez",
+area : "informatica"
+
+}
+
+si quisieramos acceder a la propiedad  "area"  mediante la notacion de corchetes seria asi:
+
+libro["area"]
+
+en la notacion de punto seria asi:
+
+libro.area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
