@@ -60,9 +60,10 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   var todo = "";
-  for (var i=0; i < palabras.length; i++){
+  for (var i=0; i < palabras.length-1; i++){
       todo += palabras[i] + " "; 
   }
+  todo += palabras[palabras.length-1]
   return todo; 
 }
 
@@ -188,10 +189,10 @@ var encontrados= [];
 var encon= 0;
 for (var v=0; v< mesPedidos.length; v++){ 
       for(var e=0; e< array.length; e++){
-           if (mesPedidos[v] == array[e] ) { encon += 1;  } 
+           if (mesPedidos[v] == array[e] ) { encon += 1; encontrados.push(array(e)); } 
             }
       } 
-     encontrados = array;      
+        
      if (encon == 3) {return encontrados; } 
      else { return "No se encontraron los meses pedidos" }
 }
@@ -243,7 +244,7 @@ function continueStatement(numero) {
   var inter=false;
   for (var i=0; i< 10; i++){ 
       
-       if (i === 4) {N.push(numero); continue; } 
+       if (i === 5) {N.push(numero); continue; } 
        N.push(numero +=2);
       } 
       return N; 
