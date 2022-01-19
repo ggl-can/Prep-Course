@@ -189,7 +189,7 @@ var encontrados= [];
 var encon= 0;
 for (var v=0; v< mesPedidos.length; v++){ 
       for(var e=0; e< array.length; e++){
-           if (mesPedidos[v] == array[e] ) { encon += 1; encontrados.push(array(e)); } 
+           if (mesPedidos[v] == array[e] ) { encon += 1; encontrados.push(array[e]); } 
             }
       } 
         
