@@ -1,0 +1,10 @@
+prototype
+
+un objeto creado tiene en si, otro objeto llamado prototipo, en el cual se guardan metodos o funciones 
+que no tiene el objeto creado, asi cuando en el objeto creado se busca alguna propiedad o metodo no especificado
+en el objeto lo busca en el objeto prototipo.  
+
+
+Constructors (de Clases)
+
+los constructores no ayudan a crear propiedades o metodos al momento de crear un objeto desde una clase.
