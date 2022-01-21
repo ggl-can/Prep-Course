@@ -15,12 +15,7 @@ function mayuscula(nombre) {
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
-  //function area(base,altura){
-    //   return base*altura;
-  //}
-
-  //function dameArea(b,a,cb){
-       return cb;
+        cb;
   //}
   
 }
