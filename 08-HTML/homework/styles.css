@@ -1,0 +1,20 @@
+
+           h1  { color: rgb(16, 68, 136);  }
+           img { width: 150px;}
+
+           #thirdDiv {
+              height: 600px;
+              width: 500px;
+              background-color: rgb(124, 136, 158);
+              border: 10px  solid  darkgreen;
+              padding: 50px;
+            }
+
+           #spanId { 
+              font-size: 15px;
+               margin: 50px;
+            }
+
+            .divClass {
+                background-color: deepskyblue;
+            }

@@ -35,7 +35,7 @@ function sumarArray(numeros, cb) {
   //Tu código:
   var suma = numeros.reduce(function(sum,ele){ return sum+ele;}) 
   
-  cb(suma)
+  cb(suma);
 }
 
 function forEach(array, cb) {
