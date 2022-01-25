@@ -1,0 +1,58 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+div { 
+    /*background-color: silver;*/
+    display: flex;
+    justify-content: center;
+    /*border-top: 5px solid #4682b4 ;*/
+}
+
+h1 {
+    font-size: 28px;
+    color: gainsboro;
+    background-color: steelblue;
+    border-radius: 5px ;
+    padding: 20px;
+}
+
+
+#en-linea {
+    
+    display: flex; 
+    flex-direction: row;
+    justify-content: start;
+    
+}
+
+#subs{
+
+    min-width: 250px;
+    max-width: 250px;
+    border-right: 2px solid steelblue;
+    background-color: steelblue;
+    color: white;
+}
+
+#d1 {
+    color: steelblue;
+    /*justify-content: center;*/
+}
+
+#d2{
+     border-top: 2px solid #196aa8 ;
+    padding: 20px;
+    
+}
+
+#d-row{
+    border-left: 2px solid #196aa8 ;
+    padding-right: 10px;
+}
+
+
